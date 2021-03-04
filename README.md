@@ -8,7 +8,7 @@ Utilize *ROS* Noetic for the creation of a image collection package that will be
 
 The UAVND vehicle for the AUVSI SUAS competition will require an alphanumeric recognition system. The competition task involves the detection, classification, and localization of alphanumeric symbols scattered around the competition grid. An example of such a symbol is portrayed below. 
 
-![This is an example of an alphanumeric symbol](https://github.com/UAVND/Betsy-Image-Collection/blob/master/images/AlphanumericExample.jpg?raw=true)
+![AlphanumericEx](https://user-images.githubusercontent.com/41211324/109902398-694c8e80-7c68-11eb-8be8-23d3d1303b05.jpg)
 
 In order to create a system capable of the aforementioned task, we will need to possess a substantial training set of images to train our model. These images will need to be taken from the expected cruise altitude of the vehicle and other lower altitudes which may be encountered if an image which cannot be resolved from the cruise altitude. At the moment,  the cruise altitude is set be 250 feet. That being said, we need to have a tool for collecting these images. Training sets can be bought online. 
 
